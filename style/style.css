@@ -33,6 +33,7 @@ body {
 .back {
   background-image: url(../img/back.jpeg);
   transform: rotateY(180deg);
+  backface-visibility: hidden;
 }
 .cards:hover {
   transform: rotateY(180deg) rotateX(360deg);
